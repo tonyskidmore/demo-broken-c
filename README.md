@@ -13,6 +13,6 @@ In the code example below we are assuming a Linux system using the gcc compiler.
 ```
 git clone https://github.com/tonyskidmore/demo-broken-c.git
 cd demo-broken-c
-gcc hello.c
-./hello.o
+gcc hello.c -o hello
+./hello
 ```
